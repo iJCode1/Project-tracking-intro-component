@@ -1,5 +1,12 @@
 body {
   font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* ----------------------------- Header ------------------------------ */
@@ -9,8 +16,19 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
-  margin: 2em 7em;
+  margin: 2em 4em;
   align-items: center;
+}
+
+.background {
+  background-color: hsl(207, 33%, 95%);
+  width: 55%;
+  height: 35%;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0;
+  border-radius: 0em 0em 0em 4em;
 }
 
 .nav ol {
@@ -34,3 +52,103 @@ body {
 }
 
 /* ----------------------------- Content ------------------------------ */
+.content {
+  display: flex;
+  /* margin: 7em 4em; */
+  justify-content: space-between;
+}
+
+.content-text {
+  width: 50%;
+  margin: 4em 4em 7em 4em;
+}
+
+.content-new {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: hsl(230, 29%, 20%);
+  border-radius: 0.8em;
+  color: white;
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  font-size: 0.8em;
+}
+
+.content-monograph {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  color: hsl(231, 7%, 65%);
+  letter-spacing: 0.3em;
+  margin: 0em 0em 0em 0.6em;
+  font-size: 0.9em;
+}
+
+.content-title {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.3em;
+  margin: 0.3em 0em 0.3em 0em;
+  letter-spacing: 0.02em;
+}
+
+.content-description {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  color: hsl(231, 7%, 65%);
+  margin: 0em 0em 3em 0em;
+}
+
+.form-button {
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: hsl(0, 100%, 68%);
+  color: white;
+  padding: 1em 1.5em;
+  border-style: none;
+  font-size: 0.8em;
+  border-radius: 0.4em;
+}
+
+.form-label {
+  font-family: "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: hsl(231, 7%, 65%);
+  margin: 0em 0em 0em 1em;
+}
+
+.content figure {
+  margin-right: 0px;
+  overflow: hidden;
+  margin: 4em 0em 7em 0em;
+}
+
+.content-imageWrapper {
+  width: 50%;
+}
+
+/* ----------------------------- Footer ------------------------------ */
+
+.footer {
+  background: hsl(230, 29%, 20%);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+}
+
+.footer-link {
+  color: cornsilk;
+  text-decoration: none;
+}
+
+.footer-description {
+  text-align: center;
+}
