@@ -22,8 +22,8 @@ body {
 
 .background {
   background-color: hsl(207, 33%, 95%);
-  width: 55%;
-  height: 35%;
+  width: 48%;
+  height: 42%;
   position: absolute;
   z-index: -1;
   top: 0px;
@@ -60,7 +60,7 @@ body {
 
 .content-text {
   width: 50%;
-  margin: 4em 4em 7em 4em;
+  margin: 8em 4em 7em 4em;
 }
 
 .content-new {
@@ -133,6 +133,11 @@ body {
   width: 50%;
 }
 
+.content-image {
+  width: 138%;
+  height: auto;
+}
+
 /* ----------------------------- Footer ------------------------------ */
 
 .footer {
@@ -151,4 +156,23 @@ body {
 
 .footer-description {
   text-align: center;
+}
+
+/* ----------------------------- Media Queries ------------------------------ */
+@media screen and (max-width: 1400px) {
+  .content-image {
+    width: 80vw;
+    height: auto;
+  }
+
+  .background {
+    background-color: hsl(207, 33%, 95%);
+    width: 48%;
+    height: 42%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0;
+    border-radius: 0em 0em 0em 4em;
+  }
 }
