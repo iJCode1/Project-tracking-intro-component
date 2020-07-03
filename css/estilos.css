@@ -1,0 +1,28 @@
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+/* ----------------------------- Header ------------------------------ */
+
+.header {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin: 2em 7em;
+  align-items: center;
+}
+
+.nav ol {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin: 0em 2.5em 0em 0em;
+}
+
+.nav a {
+  text-decoration: none;
+  color: hsl(230, 29%, 20%);
+}
